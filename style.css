@@ -1,9 +1,73 @@
+
+.smaller-image{
+    width: 700px;
+} 
+.font-courier{
+    font-family: 'Courier New', Courier, monospace;         font-size: 15px;
+    line-height: 2;
+    font-weight: 850;
+    
+}
+.font-mono{
+    font-family: monospace; font-size: 35px;
+    font-weight: 700;
+}
+.font-fantasy{
+    font-family:fantasy
+}
+.red-text{
+    color: red;
+}
+.white-text{
+    color: white
+}
+.link-color{
+    color: turquoise;
+}
+.night-mode{
+    background-color: #000000;
+}
+
+
+
+
+
+
+
 li{
     font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
 }
 a:hover{
     color:darkgreen
 }
-.background{
-    background-color: rgb(201, 189, 28);
+
+body {
+    text-align: center;
+}
+iframe{
+    margin-top: 35px;
+}
+/* img{
+    margin-top: 30px;
+    align-items: center;
+} */
+/* applied to 480px and below */
+@media (max-width:480px) {
+    .night-mode{
+        background-color: darkgrey;
+    }
+img{
+    max-width: 100%;
+    height:auto;
+}
+iframe{
+    max-width: 100%;
+    height: auto;
+}
+
+h2{
+    font-size: 32px;
+}
+
 }
